@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='Swift3.1'/>
+        <page name='Untitled Page'/>
+        <page name='twoSum'/>
+        <page name='Class Function Dispatch'/>
+        <page name='Count And Say'/>
+        <page name='Longest Substring'/>
+        <page name='Valid Parentheses'/>
+        <page name='removeDuplicates'/>
+        <page name='strStr'/>
+        <page name='isPalindrome'/>
+        <page name='addTwoNumbers'/>
+        <page name='Tree'/>
+        <page name='findMedianSortedArrays'/>
+        <page name='concurreny swift'/>
+        <page name='mergeTwoLists'/>
+        <page name='LongestCommonPrefix'/>
+    </pages>
+</playground>
