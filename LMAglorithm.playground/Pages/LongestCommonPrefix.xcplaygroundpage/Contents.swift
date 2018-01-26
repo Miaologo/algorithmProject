@@ -29,7 +29,7 @@ func longestCommonPrefix(_ strs: [String]) -> String {
     guard strs.count > 1 else {
         return strs.last ?? ""
     }
-    for (index, str) in strs[1..<strs.count].enumerated() {
+    for (_, str) in strs[1..<strs.count].enumerated() {
         resultStr = prefixForTwoString(resultStr, str2: str)
         if resultStr == "" {
             break
@@ -38,4 +38,39 @@ func longestCommonPrefix(_ strs: [String]) -> String {
     return resultStr
 }
 
-let a = longestCommonPrefix(["abc", "abd"])
+func commonPrefix(_ strs:[String]) -> String {
+    var minLength = Int.max
+    for subStr in strs {
+        minLength = min(minLength, subStr.count)
+    }
+    if minLength == 0 || strs.count == 0 {
+        return ""
+    }
+    var resultStr = strs.first ?? ""
+    func prefixForTwoString(_ str1: String, str2: String) -> String {
+        var resultStr = ""
+        let index = str1.index(str1.startIndex, offsetBy: minLength)
+        let str = str1[..<index]
+        for (_, chara) in str.enumerated() {
+            resultStr.append(chara)
+            if !str2.hasPrefix(resultStr) {
+                resultStr.removeLast()
+                break
+            }
+        }
+        minLength = resultStr.count;
+        return resultStr
+    }
+    for (_, str) in strs[1..<strs.count].enumerated() {
+        resultStr = prefixForTwoString(resultStr, str2: str)
+        if resultStr == "" {
+            break
+        }
+    }
+    
+    return resultStr
+}
+
+//let a = longestCommonPrefix(["aac", "abd"])
+let result = commonPrefix(["abca","aba","aaab"])
+
