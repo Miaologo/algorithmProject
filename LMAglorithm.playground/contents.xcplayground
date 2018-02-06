@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios'>
     <pages>
-        <page name='Swift3.1'/>
         <page name='LongestPalindromicSubstring'/>
         <page name='twoSum'/>
         <page name='Class Function Dispatch'/>
@@ -17,5 +16,6 @@
         <page name='concurreny swift'/>
         <page name='mergeTwoLists'/>
         <page name='LongestCommonPrefix'/>
+        <page name='AVLTree'/>
     </pages>
 </playground>
