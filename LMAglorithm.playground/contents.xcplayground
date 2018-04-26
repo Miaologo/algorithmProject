@@ -17,5 +17,15 @@
         <page name='mergeTwoLists'/>
         <page name='LongestCommonPrefix'/>
         <page name='AVLTree'/>
+        <page name='3Sum'/>
+        <page name='StringToInteger'/>
+        <page name='SearchInsertPosition'/>
+        <page name='SameTree'/>
+        <page name='MaximumSubarray'/>
+        <page name='LengthOfLastWord'/>
+        <page name='AddBinary'/>
+        <page name='CourseSchedule2'/>
+        <page name='InvertBinaryTree'/>
+        <page name='GasStation'/>
     </pages>
 </playground>
