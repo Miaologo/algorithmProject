@@ -27,5 +27,8 @@
         <page name='CourseSchedule2'/>
         <page name='InvertBinaryTree'/>
         <page name='GasStation'/>
+        <page name='PlusOne'/>
+        <page name='MergeSortedArray'/>
+        <page name='RemoveDuplicatesfromSortedList'/>
     </pages>
 </playground>
