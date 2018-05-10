@@ -4,7 +4,7 @@
         <page name='LongestPalindromicSubstring'/>
         <page name='twoSum'/>
         <page name='Class Function Dispatch'/>
-        <page name='Count And Say'/>
+        <page name='CountAndSay'/>
         <page name='Longest Substring'/>
         <page name='Valid Parentheses'/>
         <page name='removeDuplicates'/>
@@ -30,5 +30,7 @@
         <page name='PlusOne'/>
         <page name='MergeSortedArray'/>
         <page name='RemoveDuplicatesfromSortedList'/>
+        <page name='ClimbingStairs'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>

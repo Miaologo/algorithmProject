@@ -18,8 +18,8 @@ func twoSum(_ nums:[Int], _ target: Int) -> [Int] {
     return [0, 0]
 }
 
-let example = [2, 3, 7, 15]
-let result = twoSum(example, 9)
+//let example = [2, 3, 7, 15]
+//let result = twoSum(example, 9)
 
 
 func twoSum2(_ numbers: [Int], _ target: Int) -> [Int] {

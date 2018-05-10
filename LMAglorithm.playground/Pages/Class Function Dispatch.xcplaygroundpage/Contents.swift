@@ -22,10 +22,10 @@ func makeStudents(with data: Data) -> [Student] {
 }
 
 
-let rawStudents = "[{\"name\":\"Ray\", \"grade\":\"5.0\"}, {\"name\":\"Matt\", \"grade\":\"6\"}, {\"name\":\"Chris\", \"grade\":\"6.33\"}, {\"name\":\"Cosmin\", \"grade\":\"7\"}, {\"name\":\"Steven\", \"grade\":\"7.5\"}]"
-let data = rawStudents.data(using: .utf8)!
-let students = makeStudents(with: data)
-dump(students)
+//let rawStudents = "[{\"name\":\"Ray\", \"grade\":\"5.0\"}, {\"name\":\"Matt\", \"grade\":\"6\"}, {\"name\":\"Chris\", \"grade\":\"6.33\"}, {\"name\":\"Cosmin\", \"grade\":\"7\"}, {\"name\":\"Steven\", \"grade\":\"7.5\"}]"
+//let data = rawStudents.data(using: .utf8)!
+//let students = makeStudents(with: data)
+//dump(students)
 
 class Wolf {
     var name: String = "wolf"

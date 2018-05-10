@@ -13,5 +13,6 @@ func removeDuplicates(_ nums: inout [Int]) -> Int {
     nums.removeFirst(nums.count - result)
     return result
 }
-var temp = [1, 1, 2]
-let a = removeDuplicates(&temp)
+//var temp = [1, 1, 2]
+//let a = removeDuplicates(&temp)
+
