@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MoveZeroes/MoveZeroes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MultiplyStrings/MultiplyStrings.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:FeatureStar/FeatureStar.xcodeproj">
    </FileRef>
    <FileRef
