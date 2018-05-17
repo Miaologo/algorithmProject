@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HappyNumber/HappyNumber.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ConvertSortedArraytoBinarySearchTree/ConvertSortedArraytoBinarySearchTree.xcodeproj">
    </FileRef>
    <FileRef
