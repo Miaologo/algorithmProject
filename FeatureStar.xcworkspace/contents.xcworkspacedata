@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ConvertSortedArraytoBinarySearchTree/ConvertSortedArraytoBinarySearchTree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MissingNumber/MissingNumber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ReverseLinkedList/ReverseLinkedList.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CountofSmallerNumbersAfterSelf/CountofSmallerNumbersAfterSelf.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ContainsDuplicate/ContainsDuplicate.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DeleteNodeinALinkedList/DeleteNodeinALinkedList.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ValidAnagram/ValidAnagram.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RomantoInteger/RomantoInteger.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MoveZeroes/MoveZeroes.xcodeproj">
    </FileRef>
    <FileRef
