@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:SymmetricTree/SymmetricTree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PowerofThree/PowerofThree.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HappyNumber/HappyNumber.xcodeproj">
    </FileRef>
    <FileRef
