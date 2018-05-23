@@ -17,15 +17,46 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x): val(x), left(NULL), right(NULL){}
 };
-
-bool isSymmetricTree(TreeNode *root) {
+bool isSymmetricValue(TreeNode *left, TreeNode *right);
+bool isSymmetric(TreeNode *root) {
 
     vector<int> values;
-    vector<TreeNode *> nodes;
     if (root == NULL) {
         return true;
     }
-    return isSymmetricTree(root->left) && isSymmetricTree(root->right);
+    return isSymmetricValue(root->left, root->right);
+}
+
+bool isSymmetricValue(TreeNode *left, TreeNode *right) {
+    if (left == NULL && right == NULL) {
+        return true;
+    }
+    if ((left == NULL && right != NULL) || (left != NULL && right == NULL)) {
+        return false;
+    }
+    if (left->val != right->val) {
+        return false;
+    }
+    return isSymmetricValue(left->left, right->right) && isSymmetricValue(left->right, right->left);
+}
+
+bool isSymmetricNode(TreeNode *left, TreeNode *right) {
+    if (left == NULL && right == NULL) {
+        return true;
+    }
+    if ((left == NULL && right != NULL) || (left != NULL && right == NULL)) {
+        return false;
+    }
+    bool fristSub = left->left == NULL && right->right == NULL;
+    bool secondSub = left->right == NULL && right->left == NULL;
+    if (left->left != NULL && right->right != NULL) {
+        fristSub = left->left->val == right->right->val;
+    }
+    if (left->right != NULL && right->left != NULL) {
+        secondSub = left->right->val == right->left->val;
+    }
+    
+    return fristSub && secondSub;
 }
 
 int main(int argc, const char * argv[]) {

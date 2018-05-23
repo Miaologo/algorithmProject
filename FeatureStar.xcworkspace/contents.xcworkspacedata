@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Numberof1Bits/Numberof1Bits.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SymmetricTree/SymmetricTree.xcodeproj">
    </FileRef>
    <FileRef
