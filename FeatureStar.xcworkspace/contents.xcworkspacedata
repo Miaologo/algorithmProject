@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:FactorialTrailingZeroes/FactorialTrailingZeroes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HouseRobber/HouseRobber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IntersectionofTwoArraysII/IntersectionofTwoArraysII.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Numberof1Bits/Numberof1Bits.xcodeproj">
    </FileRef>
    <FileRef
