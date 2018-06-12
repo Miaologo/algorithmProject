@@ -29,6 +29,7 @@ vector<int> intersect(vector<int> &nums1, vector<int> &nums2) {
         }
     }
     return result;
+    
 }
 
 int main(int argc, const char * argv[]) {

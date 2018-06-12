@@ -66,7 +66,7 @@ func manacher(_ str: String) -> String {
     let fistIndex = str.index(str.startIndex, offsetBy: resultMid-maxLength-1)
     let endIndex = str.index(str.startIndex, offsetBy: resultMid+maxLength-1)
     let result = str[fistIndex...endIndex] as? String
-    return result
+    return result!
 }
 
 //longestPalindrome("ababd")

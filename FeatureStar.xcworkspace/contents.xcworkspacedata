@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/Tim/LMStudyDemo/MyAlgorithmProject/MiniStack/MinStack.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:FactorialTrailingZeroes/FactorialTrailingZeroes.xcodeproj">
    </FileRef>
    <FileRef
